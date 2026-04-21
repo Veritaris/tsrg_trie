@@ -1,5 +1,4 @@
 use std::collections::HashMap;
-use std::io::BufRead;
 use std::io::Error;
 use std::path::Path;
 use tsrg_trie::csv_parser::parse_mappings_csv;
