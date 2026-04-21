@@ -3,7 +3,7 @@ use std::io::BufRead;
 use std::io::Error;
 use std::path::Path;
 use tsrg_trie::csv_parser::parse_mappings_csv;
-use tsrg_trie::tsrg_parser::{Class, ClassMember, TsrgTrie, parse_class_line, parse_class_member_line};
+use tsrg_trie::tsrg_parser::{parse_class_line, parse_class_member_line, Class, ClassMember, TsrgTrie};
 
 fn main() -> Result<(), Error> {
     let fields_mapping = {
